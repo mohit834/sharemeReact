@@ -7,7 +7,7 @@ export default defineConfig({
   name: 'default',
   title: 'shareme_jsm',
 
-  projectId: 'zntd4ka9',
+  projectId: 'projectid',
   dataset: 'production',
 
   plugins: [structureTool(), visionTool()],
