@@ -17,7 +17,7 @@ const navigate = useNavigate();
     }, [])
 
     return (
-        <GoogleOAuthProvider clientId="763082340189-lmj0sqpus837clm0n3mjinoke7ehgccq.apps.googleusercontent.com">
+        <GoogleOAuthProvider clientId={REACT_APP_GOOGLE_API_TOKEN}>
             <Routes>
                 <Route path="/login" element={<Login />} />
                 <Route path="/*" element={<Home />} />
